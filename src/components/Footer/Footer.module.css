@@ -1,9 +1,40 @@
 .footer {
-
+    background-color: #EAFCE4;
+    padding: 50px 0 20px 0;
 }
 
 .footerBlock {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footerBlock p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footerBlock ul {
+    padding-left: 0;
+    list-style: none;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.footerBlock ul li {
+    background-color: #C4C4C4;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.footerBlock ul li:not(:last-child) {
+    margin-right: 50px;
 }
 
 .footerList {

@@ -11,8 +11,14 @@
     border: 1px solid black;
 }
 
-.contactsForm {
+.contactsBlock h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
 
+.contactsForm {
+    margin: 50px 0;
 }
 
 .contactsForm input {
