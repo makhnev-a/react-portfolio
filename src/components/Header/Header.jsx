@@ -1,12 +1,13 @@
 import React from "react";
 import styles from './Header.module.css';
+import logo from './../../logo.svg';
 
 const Header = () => {
     return (
         <header className={styles.header}>
-            <nav className={styles.headerNavigation}>
+            <nav className={styles.headerNavigation + ' container'}>
                 <a href={'/'} className={styles.headerLogo}>
-                    <img src="" alt="Логотип"/>
+                    <img src={logo} alt="Логотип"/>
                 </a>
                 <ul className={styles.headerLinks}>
                     <li>

@@ -1,15 +1,27 @@
 .about {
-
+    background-color: #F8DEE9;
+    padding: 80px 0;
 }
 
 .aboutInfo {
-
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    border: 1px solid black;
 }
 
 .aboutInfoImg {
-
+    align-self: stretch;
+    height: auto;
+    width: 200px;
+    background-color: #D9D7D8;
 }
 
 .aboutInfoText {
+    background-color: #D9D7D8;
+    margin: 80px 0;
+}
 
+.aboutInfoText p {
+    margin: 0;
 }

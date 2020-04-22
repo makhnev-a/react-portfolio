@@ -6,7 +6,7 @@ import MyWorks from "./components/MyWorks/MyWorks";
 import WorkOptions from "./components/WorkOptions/WorkOptions";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
-// import './App.css';
+import './App.css';
 
 const App = () => {
     return (
