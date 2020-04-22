@@ -1,11 +1,23 @@
 .works {
-
+    background-color: #F1E2FE;
+    padding: 50px 0;
 }
 
 .worksBlock {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
 
+.worksBlock h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+    align-self: center;
 }
 
 .worksList {
-
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
 }

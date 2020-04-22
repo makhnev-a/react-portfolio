@@ -5,7 +5,9 @@ const Skill = () => {
     return (
         <article className={styles.skillsItem}>
             <div className={styles.skillsItemHeader}>
-                <img className={styles.skillsItemImg} src="" alt="Картинка навыка"/>
+                <div className={styles.skillsItemImg}>
+                    <img src="" alt="Картинка навыка"/>
+                </div>
                 <h3 className={styles.skillsItemHeading}>React</h3>
             </div>
             <div className={styles.skillsItemFooter}>

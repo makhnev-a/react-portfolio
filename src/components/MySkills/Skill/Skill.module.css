@@ -1,13 +1,22 @@
 .skillsItem {
-
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 165px;
+    background-color: white;
 }
 
 .skillsItemHeader {
-
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skillsItemImg {
-
+    width: 50px;
+    height: 50px;
+    background-color: #C4C4C4;
 }
 
 .skillsItemHeading {
@@ -15,5 +24,9 @@
 }
 
 .skillsItemFooter {
+    border-top: 1px solid black;
+}
 
+.skillsItemFooter p {
+    text-align: center;
 }

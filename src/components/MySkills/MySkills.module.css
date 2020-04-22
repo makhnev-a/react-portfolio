@@ -1,11 +1,22 @@
 .skills {
-
+    padding: 50px 0;
+    background-color: #DCFCE9;
 }
 
 .skillsBlock {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
 
+.skillsBlock h2 {
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
 }
 
 .skillsList {
-
+    display: flex;
+    justify-content: space-between;
 }
