@@ -1,7 +1,26 @@
 .workOptions {
-
+    padding: 50px 0;
+    background-color: #FEFEEC;
 }
 
 .workOptionsBlock {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.workOptionsBlock h2 {
+    margin: 0;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.workOptionsBlock button {
+    width: 150px;
+    height: 50px;
+    background-color: #929292;
+    color: black;
+    font-size: 16px;
 }

@@ -1,11 +1,38 @@
 .contacts {
-
+    background-color: #FAE2E2;
+    padding: 50px 0;
 }
 
 .contactsBlock {
-
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
 }
 
 .contactsForm {
 
+}
+
+.contactsForm input {
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.contactsForm textarea {
+    height: 60px;
+}
+
+.contactsForm input,
+.contactsForm textarea {
+    width: 500px;
+}
+
+.contactsBlock button {
+    width: 150px;
+    height: 50px;
+    background-color: #929292;
+    color: black;
+    font-size: 16px;
 }
