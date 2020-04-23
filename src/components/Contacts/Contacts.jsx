@@ -4,7 +4,7 @@ import styles from './Contacts.module.css';
 const Contacts = () => {
     return (
         <section className={styles.contacts}>
-            <div className={'container'}>
+            <div>
                 <div className={styles.contactsBlock}>
                     <h2>Контакты</h2>
                     <form className={styles.contactsForm}>

@@ -5,14 +5,12 @@ import Skill from "./Skill/Skill";
 const MySkills = () => {
     return (
         <section className={styles.skills}>
-            <div className={'container'}>
+            <div className={styles.container}>
+                <h2>Мои скиллы</h2>
                 <div className={styles.skillsBlock}>
-                    <h2>Мои скиллы</h2>
-                    <div className={styles.skillsList}>
-                        <Skill/>
-                        <Skill/>
-                        <Skill/>
-                    </div>
+                    <Skill/>
+                    <Skill/>
+                    <Skill/>
                 </div>
             </div>
         </section>

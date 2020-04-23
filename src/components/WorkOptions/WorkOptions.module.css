@@ -1,23 +1,20 @@
 .workOptions {
-    padding: 50px 0;
     background-color: #FEFEEC;
-}
-
-.workOptionsBlock {
-    border: 1px solid black;
+    height: 250px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-.workOptionsBlock h2 {
-    margin: 0;
-    font-size: 22px;
-    margin-bottom: 50px;
-}
-
-.workOptionsBlock button {
+.container button {
     width: 150px;
     height: 50px;
     background-color: #929292;

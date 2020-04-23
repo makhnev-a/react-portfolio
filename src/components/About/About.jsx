@@ -4,14 +4,14 @@ import styles from './About.module.css';
 const About = () => {
     return (
         <section className={styles.about}>
-            <div className={'container'}>
-                <div className={styles.aboutInfo}>
-                    <div className={styles.aboutInfoText}>
-                        <p>Привет!<br/>Меня зовут Иван Иванович.<br/>Я front-end разработчик</p>
-                    </div>
-                    <div className={styles.aboutInfoImg}>
-                        <img src="" alt="Картинка обо мне"/>
-                    </div>
+            <div className={styles.container}>
+                <div className={styles.aboutText}>
+                    <span>Привет!</span>
+                    <span>Меня зовут Иван Иванович.</span>
+                    <span>Я front-end разработчик</span>
+                </div>
+                <div className={styles.aboutPhoto}>
+                    <img src="" alt="Картинка обо мне"/>
                 </div>
             </div>
         </section>

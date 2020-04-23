@@ -5,13 +5,11 @@ import Work from "./Work/Work";
 const MyWorks = () => {
     return (
         <section className={styles.works}>
-            <div className={'container'}>
+            <div className={styles.container}>
+                <h2>Мои работы</h2>
                 <div className={styles.worksBlock}>
-                    <h2>Мои работы</h2>
-                    <div className={styles.worksList}>
-                        <Work/>
-                        <Work/>
-                    </div>
+                    <Work/>
+                    <Work/>
                 </div>
             </div>
         </section>
