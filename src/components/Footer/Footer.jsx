@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.footerBlock}>
-                <p className={styles.footerCopy}>Иван Иванов</p>
+                <p>Иван Иванов</p>
                 <ul className={styles.footerList}>
                     <li>
                         <FontAwesomeIcon icon={faVk} size={"3x"} mask={faCircle}/>
