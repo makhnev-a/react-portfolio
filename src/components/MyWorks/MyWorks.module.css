@@ -1,5 +1,6 @@
 .works {
-    background-color: #F1E2FE;
+    background-color: #202021;
+    color: #fff;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,7 +18,7 @@
     display: flex;
     height: 80%;
     width: 100%;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-evenly;
     align-items: center;
 }

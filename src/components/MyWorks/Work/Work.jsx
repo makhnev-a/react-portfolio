@@ -1,15 +1,15 @@
 import React from "react";
 import styles from './Work.module.css';
 
-const Work = () => {
+const Work = (props) => {
     return (
         <article className={styles.worksItem}>
             <div className={styles.worksHeader}>
-                <button className={styles.worksBtn}>Смотреть</button>
+                <img src={props.imgWork} alt="Картинка работ"/>
             </div>
             <div className={styles.worksFooter}>
-                <h3>Название проекта</h3>
-                <p>Краткое описание</p>
+                <h3>{props.title}</h3>
+                <p>{props.desc}</p>
             </div>
         </article>
     );
