@@ -36,6 +36,7 @@
     background-color: #252627;
     border: 1px solid #4a4a4a;
     padding: 5px 15px;
+    color: #fff;
 }
 
 @media screen and (max-width: 530px) {
@@ -49,6 +50,13 @@
     .contactsForm input,
     .contactsForm textarea {
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .contactsForm input,
+    .contactsForm textarea {
+        width: 260px;
     }
 }
 

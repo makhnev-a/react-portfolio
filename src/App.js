@@ -11,9 +11,9 @@ import './App.css';
 const App = () => {
     return (
         <div className="App">
-            <Header/>
-            <About/>
-            <MySkills/>
+            {/*<Header/>*/}
+            {/*<About/>*/}
+            {/*<MySkills/>*/}
             <MyWorks/>
             <WorkOptions/>
             <Contacts/>
