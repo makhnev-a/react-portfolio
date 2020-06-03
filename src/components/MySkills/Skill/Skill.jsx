@@ -1,18 +1,20 @@
 import React from "react";
 import styles from './Skill.module.css';
 
-const Skill = () => {
+const Skill = (props) => {
     return (
         <article className={styles.skillsItem}>
-            <div className={styles.skillsItemHeader}>
-                <div className={styles.skillsItemImg}>
-                    <img src="" alt="Картинка навыка"/>
-                </div>
-                <h3 className={styles.skillsItemHeading}>React</h3>
-            </div>
-            <div className={styles.skillsItemFooter}>
-                <p>Подробное описание навыка</p>
-            </div>
+            <h3>{props.title}</h3>
+            <p>{props.desc}</p>
+            {/*<div className={styles.skillsItemHeader}>*/}
+            {/*    <div className={styles.skillsItemImg}>*/}
+            {/*        <img src="" alt="Картинка навыка"/>*/}
+            {/*    </div>*/}
+            {/*    <h3 className={styles.skillsItemHeading}>{props.title}</h3>*/}
+            {/*</div>*/}
+            {/*<div className={styles.skillsItemFooter}>*/}
+            {/*    <p>{props.desc}</p>*/}
+            {/*</div>*/}
         </article>
     );
 };

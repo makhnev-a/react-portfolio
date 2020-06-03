@@ -1,8 +1,13 @@
 .skills {
-    background-color: #DCFCE9;
-    height: 100vh;
+    background-color: #000000;
     display: flex;
     justify-content: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.skills h2 {
+    margin-top: 0;
 }
 
 .container {
@@ -16,14 +21,25 @@
 
 .skillsBlock {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
     align-items: center;
-    flex-direction: row;
+    /*flex-direction: row;*/
     width: 100%;
     height: 80%;
 }
 
 .skillsBlock article {
-    border: 1px solid black;
+    border: 1px solid #fff;
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .skillsBlock {
+        flex-direction: column;
+    }
+
+    .skillsBlock article {
+        width: 100%;
+    }
 }
