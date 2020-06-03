@@ -1,8 +1,9 @@
 .header {
     height: 70px;
-    background-color: #CFEAFD;
+    background-color: #202021;
     display: flex;
     justify-content: center;
+    color: #fff;
 }
 
 .container {
@@ -23,4 +24,5 @@
 
 .navList li a {
     text-decoration: none;
+    color: #fff;
 }
