@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './About.module.css';
+import avatar from '../../assets/img/ava.jpg';
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
                     <span>Я front-end разработчик</span>
                 </div>
                 <div className={styles.aboutPhoto}>
-                    <img src="" alt="Картинка обо мне"/>
+                    <img src={avatar} alt="Картинка обо мне"/>
                 </div>
             </div>
         </section>
